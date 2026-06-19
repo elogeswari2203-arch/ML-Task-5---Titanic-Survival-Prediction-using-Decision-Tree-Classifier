@@ -1,13 +1,16 @@
 Titanic Survival Prediction using Decision Tree Classifier
 
 📌 Project Overview
+
 This project implements a Decision Tree Classification Algorithm to predict whether a passenger survived the Titanic disaster based on passenger information such as class, gender, age, and fare.
 The project demonstrates the complete machine learning workflow, including data preprocessing, feature selection, model training, prediction, evaluation, and visualization.
 
 🎯 Objective
+
 To build a classification model capable of predicting passenger survival using historical Titanic passenger data.
 
 📊 Dataset Information
+
 The dataset contains information about Titanic passengers, including:
 Passenger Class (Pclass)
 Gender (Sex)
@@ -20,12 +23,14 @@ Value	Meaning
 1	Survived
 
 🛠 Technologies Used
+
 Python
 Pandas
 Matplotlib
 Scikit-Learn
 
 📋 Project Workflow
+
 1. Data Collection
 Loaded the Titanic dataset using Pandas.
 
@@ -34,7 +39,6 @@ Handled missing values
 Selected important features
 Converted categorical values into numerical format
 Example:
-
 Male → 0
 Female → 1
 
@@ -91,10 +95,12 @@ Gender = Female?
     └── No → Not Survived
 
 📈 Results
+
 The model successfully learned patterns from passenger data and predicted survival outcomes with good accuracy.
 The visualization clearly shows how the Decision Tree makes decisions based on different passenger attributes.
 
 🎓 Learning Outcomes
+
 Through this project, I learned:
 
 Supervised Machine Learning
@@ -109,6 +115,7 @@ Accuracy Measurement
 Decision Tree Visualization
 
 🚀 Future Improvements
+
 Hyperparameter Tuning
 Random Forest Implementation
 Feature Engineering
@@ -117,6 +124,7 @@ Comparison with other Classification Algorithms
 
 
 👩‍💻 Author
+
 E. Logeswari
 B.E. Robotics and Automation
 Machine Learning Internship Project
